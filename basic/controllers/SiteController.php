@@ -126,11 +126,12 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
-    /*
-    *测试
+    /**
+    *
     */
     public function actionDemo()
     {
-        return $this->render('demo');
+        return $this->render('ceshi');
     }
+    
 }
